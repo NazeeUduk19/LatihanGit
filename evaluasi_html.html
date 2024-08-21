@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>   
+<head> <title>HTML Dasar</title>  </head>
+<body>
+    <h1>Selamat Datang di Evaluasi HTML</h1>
+    <h2>Pengelolaan Teks</h2>
+    <p>Latihan HTML</p>
+    <strong><em>Tugas 5</em></strong>
+    <hr>
+    <blockquote>Tuhan Tidak Bermain Dadu - Einstein</blockquote>
+    <h2>Hyperlink dan Gambar</h2>
+        <p><a href=https://id.wikipedia.org/wiki/Real_Madrid_C.F.>Kunjungi Website</a></p>
+        <a href="https://id.wikipedia.org/wiki/Real_Madrid_C.F."><img src="Real Madrid.png" alt="Logo Real Madrid"></a>
+    <h2>Membuat Daftar</h2>
+    <ol>
+    <li>Sukses</li>
+    <li>Kaya</li>
+    <li>Masuk ke PTN Favorit</li>
+    </ol>
+    <ul>
+    <li>Main Bola</li>
+    <li>Main Game</li>
+    <li>Meroasting Kominfo</li>
+    </ul>
+    <h2>Tabel Data</h2>
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Kota</th>
+        </tr>
+        <tr>
+            <td>Gita</td>
+            <td>21</td>
+            <td>Atlantis</td>
+        </tr>
+        <tr>
+            <td>Billie Elliesh</td>
+            <td>25</td>
+            <td>Nganjuk</td>
+        </tr>
+        <tr>
+            <td>Beth</td>
+            <td>31</td>
+            <td>Malang</td>
+        </tr>
+    </table>
+    <h2>Formulir Pendaftaran</h2>
+    <form action="/submit" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="gender">Jenis Kelamin:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Laki-laki</label> <br><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Perempuan</label><br><br>
+        <select name="kota">
+            <option value="Atlantis">Atlantis</option>
+            <option value="Nganjuk">Nganjuk</option>
+            <option value="Bandung">Bandung</option>
+        </select>
+
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" name="pesan"></textarea><br><br>
+
+        <input type="checkbox" name="agreement"> Saya Menyetujui
+        <h2></h2>
+        <input type="submit" value="Kirim">
+    
+    </form>
+    
+<body>
+</html>
